@@ -1,0 +1,274 @@
+
+.react-tabs {
+  display: flex;
+  align-items: center;
+  margin-left: 160px;
+  height: 520px;
+  outline: none;
+  margin-bottom: 200px;
+}
+
+.react-tabs__tab-list {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  flex-direction: column;
+  width: 280px;
+  height: 315px;
+  margin: 40px;
+  color: white;
+  background: #1F2731;
+
+}
+
+.react-tabs__tab {
+  height: 10px;
+  list-style: none;
+  padding: 25px 6px;
+  cursor: pointer;
+
+  p {
+    margin-top: -12px;
+  }
+
+  .ttt {
+    border-bottom: 1px solid white;
+    width: 150px;
+    margin: 15px auto;
+    opacity: 0.2;
+  }
+}
+
+.react-tabs__tab--selected {
+  .dd {
+    display: block;
+  }
+}
+
+.dd {
+  position: absolute;
+  top: 25px;
+  left: 250px;
+  width: 10px;
+  height: 1px;
+  opacity: 0.7;
+  background: white;
+  display: none;
+
+}
+
+.react-tabs__tab--selected {
+  transition: .3s;
+  background: #940202;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.react-tabs__tab {
+  text-align: center;
+  list-style: none;
+  padding: 26px 0;
+  cursor: pointer;
+
+  .ttt {
+    border-bottom: 1px solid rgba(187, 184, 184, 0.86);
+    width: 190px;
+    margin: 14px auto;
+  }
+}
+
+.panel-page {
+  margin-left: 116px;
+  margin-top: 285px;
+
+  &__img {
+    background: white;
+    padding-bottom: 9px;
+    margin: 10px 8px;
+  }
+
+  img {
+    width: 270px;
+    height: 137px;
+  }
+
+  h2 {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #1F2731;
+    margin-bottom: -10px;
+    margin-left: 10px;
+
+
+    span {
+      color: red;
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      margin-left: 157px;
+    }
+  }
+
+  p {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #939393;
+    margin-left: 10px;
+  }
+
+
+}
+
+.menuMenu {
+  margin-top: 70px;
+  padding-bottom: 150px;
+}
+
+@media(max-width: 1200px){
+    .react-tabs {
+      margin-left: 20px;
+    }
+  }
+@media (max-width: 1024px) {
+  .panel-page {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .panel-page {
+    margin-left: 0;
+  }
+  .menu {
+    margin-top: 50px;
+
+    &--bottom{
+      padding: 50px 0 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &__left{
+        display: flex;
+        padding: 0 40px;
+        &--vectors{
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+        }
+        h3{
+          font-family: 'Shalimar', sans-serif;
+          font-size: 50px;
+          color: #FFFFFF;
+          font-weight: 100;
+          padding: 8px 30px;
+        }
+      }
+      &__right{
+        padding: 0 70px;
+        &--icon{
+          font-size: 30px;
+          color: white;
+        }
+      }
+    }
+
+
+  }
+  #footer{
+    display: none;
+  }
+
+  .react-tabs__tab--selected .dd {
+    display: none;
+  }
+  .react-tabs__tab .ttt {
+    display: none;
+  }
+}
+
+
+  @media (max-width: 653px) {
+    .react-tabs__tab-list {
+      justify-content: center;
+    }
+    .panel-page__img {
+      flex-direction: column;
+    }
+    .panel-page__img--div1 {
+      flex-direction: column;
+    }
+    .panel-page p {
+      top: 200px;
+    }
+    .menu {
+      padding-bottom: 780px;
+    }
+  }
+  @media (max-width: 768px) {
+    .react-tabs {
+      flex-direction: column;
+    }
+    .panel-page {
+      margin-top: 25px;
+    }
+    .menuMenu {
+      margin-top: 70px;
+      padding-bottom: 144px;
+    }
+  }
+@media (max-width: 576px) {
+  .panel-page__img {
+    background: transparent;
+  }
+  .glav-diiv{
+  flex-direction: column;
+  }
+  .menuMenu {
+    padding-bottom: 578px;
+  }
+  .panel-page h2 {
+    color: white;
+  }
+  .panel-page img {
+    width: 240px;
+    height: 130px;
+  }
+  .panel-page h2 span {
+    margin-left: 118px;
+  }
+  .react-tabs__tab-list {
+    width: 250px;
+  }
+}
+
+
+
+
+
+  .containerSearch {
+    width: 70%;
+    margin: 0 auto;
+  }
+  #searchPage {
+    height: 100vh;
+
+    .search {
+      padding: 120px 0;
+
+      input {
+        padding: 10px 340px 10px 20px;
+        border-radius: 7px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: capitalize;
+        outline: none;
+
+
+      }
+    }
+  }
+
+
+

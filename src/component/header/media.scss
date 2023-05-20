@@ -1,0 +1,179 @@
+@media  (max-width: 1400px){
+  .header-title input {
+    margin: 0 40px;
+  }
+  .input .icon {
+    left: 52px;
+  }
+}
+
+@media (max-width: 1309px) {
+  .header a {
+    margin: 0px 27px;
+  }
+
+}
+
+@media  (max-width: 1240px){
+  .header-title input {
+    width: 157px;
+  }
+}
+@media  (max-width: 1200px){
+  .header a {
+    margin: 0 30px;
+  }
+}
+@media  (max-width: 1150px){
+  .header-title input {
+    margin: 0 17px;
+  }
+  .input .icon {
+    left: 29px;
+  }
+}
+@media  (max-width: 1100px){
+  .header-title input {
+    width: 123px;
+  }
+  .header-title {
+    display: none;
+  }
+  .header-select{
+    display: none;
+  }
+  .Menu{
+    display: block;
+  }
+  .Menu button{
+    background: transparent;
+    border: none;
+  }
+  .burger h6 {
+    padding: 25px 25px;
+    color: white;
+    font-size: 20px;
+  }
+  .burger-link a {
+    margin: 0px 9px;
+    font-size: 25px;
+    opacity: 0.4;
+  }
+  .burger-link{
+    display: flex;
+    margin: 0 20px;
+  }
+  .burger-link a:hover{
+    border-bottom: 2px solid white;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 783px) {
+  .hero-bottom .hero-bottom-left {
+    flex-direction: column;
+    margin: 0 20px;
+    
+  }
+  .hero-bottom .hero-bottom-left hr {
+    width: 50px;
+    height: 1px;
+    margin: 10px 0;
+  }
+  .hero-bottom .hero-bottom-right {
+    flex-direction: column;
+    margin: 0 20px;
+  }
+  .hero-bottom .hero-bottom-right hr {
+    width: 50px;
+    height: 1px;
+    margin: 10px 0;
+  }
+  .hero-bottom {
+    padding: 55px 0;
+  }
+
+  .hero .hero-hr2 {
+    left: 14px;
+    bottom: 41px;
+  }
+  .hero .hero-hr1 {
+    left: -178px;
+    bottom: 230px;
+  }
+  .hero-phone{
+    display: none;
+  }
+  .hero-location{
+    display: none;
+    }
+}
+
+@media (max-width: 712px) {
+  .hero .hero-hr1 {
+    left: -145px;
+  }
+  .hero-bottom .hero-bottom-left h6 {
+    width: 142px;
+  }
+  .heroo .heroo-nav .hero-button .modal {
+    top: 254px;
+    width: 222px;
+    height: 242px;
+  }
+  .heroo .heroo-nav .hero-button .modal-btn--bbb {
+    padding: 15px 50px;
+  }
+}
+
+@media (max-width: 603px) {
+  .heroo .heroo-nav button {
+    padding: 5px 31px;
+  }
+  .heroo .heroo-nav h2 {
+    font-size: 50px;
+  }
+  .heroo .heroo-nav p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 461px) {
+  .heroo .heroo-nav h2 {
+    font-size: 40px;
+  }
+  .heroo .heroo-nav p {
+    padding: 25px 0;
+    font-size: 10px;
+  }
+
+}
+
+@media (max-width: 357px) {
+  .heroo .heroo-nav h2 {
+    font-size: 30px;
+  }
+  .heroo .heroo-nav p {
+    padding: 19px 0;
+    font-size: 7px;
+  }
+  #hero {
+    height: 600px;
+  }
+  .heroo h1 {
+    font-size: 37px;
+  }
+  .heroo .heroo-nav .hero-button .modal {
+    top: 181px;
+    width: 196px;
+    height: 240px;
+  }
+  .heroo .heroo-nav .hero-button .modal-btn--bbb {
+    padding: 15px 40px;
+  }
+
+}
+
+
+
+

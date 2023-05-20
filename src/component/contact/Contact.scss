@@ -1,0 +1,121 @@
+#contact {
+  background: #1B2026;
+
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 110px 50px;
+
+    &__maps {
+      background: #EF272C;
+      width: 600px;
+      height: 520px;
+      padding: 30px 40px;
+      line-height: 50px;
+      b{
+        padding-right: 20px;
+      }
+      &--a{
+        padding-right: 20px;
+
+      }
+      a{
+        color: #1F2731;;
+        font-size: 25px;
+        text-decoration: none;
+      }
+      iframe{
+        width: 80%;
+        height: 30vh;
+        margin: 10px 50px;
+      }
+      &--group__title{
+       padding: 10px 20px;
+        a{
+          font-size: 30px;
+        }
+      }
+    }
+
+    &--text {
+      h1 {
+        font-family: 'Silk Serif', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 61px;
+        color: #FFFFFF;
+      }
+      &__icon{
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0 0 0 6px;
+      }
+
+
+      p {
+        font-family: 'Spartan', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+        color: #EF272C;
+        padding-top: 30px;
+      }
+
+      h3 {
+        font-family: 'Spartan', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        padding-top: 15px;
+      }
+
+      &__btn {
+        display: flex;
+        align-items: center;
+        font-family: 'Spartan', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 13px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border: 2px solid #EF272C;
+        background: transparent;
+        padding: 10px 10px;
+        cursor: pointer;
+      }
+
+      &__visit {
+        display: flex;
+
+        img {
+          padding-right: 30px;
+        }
+
+        h2 {
+          font-family: 'Shalimar', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 40px;
+          line-height: 49px;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  #contact .contact--text h1 {
+    line-height: 45px;
+    font-size: 30px;
+  }
+  #contact .contact--text__visit h2 {
+    font-size: 30px;
+  }
+
+}
